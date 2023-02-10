@@ -16,9 +16,8 @@ function Im(props) {
 const Home = () => {
     return (
         <div>
-            <img src={data.pictures[0].src} alt="Test"/>
-            <p>{data.pictures[0].name}</p>
-            <p>{data.pictures[0].type}</p>
+            <Im number={0} />
+            <Im number={1} />
             <li><Link to="/aboutus">About us</Link></li>
         </div>
     );
