@@ -1,0 +1,11 @@
+{
+  "pictures":
+          [
+            {
+              "name": "testbild",
+              "src": "/images/Unbenannt-1.jpg",
+              "type": "Landscape",
+              "destination": "Africa"
+            }
+          ]
+}
