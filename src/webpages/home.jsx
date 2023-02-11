@@ -6,16 +6,14 @@ import {
 import PictureItem from "../components/pictureItem";
 
 
-function createPicture(picture){
-    return <PictureItem src={picture.src} name={picture.name} type={picture.type} key={picture.id}/>;
-}
+
 
 
 const Home = () => {
     return (
         <div>
             <div style={{ overflow: "scroll", whiteSpace: "nowrap" }}>
-                {pics.map(createPicture)}
+                {pics.map(picture => <PictureItem src={picture.src} name={picture.name} type={picture.type} key={picture.id}/>)}
             </div>
             <li><Link to="/aboutus">About us</Link></li>
         </div>
