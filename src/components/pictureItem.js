@@ -17,7 +17,7 @@ function PictureItem(props) {
             style={{backgroundColor: isMouseOver? "grey" : "white"}}>
         <img src={props.src} alt="Test"/>
         <p>{props.name}</p>
-        <p>{props.type}</p>
+        <p>{props.price}</p>
         </button></div>;
 }
 
