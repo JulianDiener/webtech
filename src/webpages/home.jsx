@@ -1,9 +1,10 @@
 import React from 'react';
-import pics from '../pictures';
+import picturesItalia from '../pictures';
 import {
     Link
 } from "react-router-dom";
-import PictureItem from "../components/pictureItem";
+
+import PictureSlider from "../components/pictureSlide";
 
 
 
@@ -12,9 +13,10 @@ import PictureItem from "../components/pictureItem";
 const Home = () => {
     return (
         <div>
-            <div style={{ overflow: "scroll", whiteSpace: "nowrap" }}>
-                {pics.map(picture => <PictureItem src={picture.src} name={picture.name} type={picture.type} key={picture.id}/>)}
-            </div>
+            <h2>Italien</h2>
+            <PictureSlider list={picturesItalia} />
+            <h2>Auch Italien</h2>
+            <PictureSlider list={picturesItalia} />
             <li><Link to="/aboutus">About us</Link></li>
         </div>
     );
