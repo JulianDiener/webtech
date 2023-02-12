@@ -146,5 +146,80 @@ const picturesEngland = [
 
 ]
 
+const picturesSpain = [
 
-export {picturesItalia, picturesEngland};
+            {
+                "id" : "two bed apartment",
+                "name": "two bed apartment",
+                "src": "/images/Spain/two bed apartment.jpg",
+                "price": "147 €",
+                "destination": "Spain"
+            },
+            {
+                "id" : "Ocean Apartment",
+                "name": "Ocean Apartment",
+                "src": "/images/Spain/Ocean Apartment.jpg",
+                "price": "220 €",
+                "destination": "Spain"
+            },
+            {
+                "id" : "Cubo's Casa Rural",
+                "name": "Cubo's Casa Rural",
+                "src": "/images/Spain/Cubo's Casa Rural.jpg",
+                "price": "124 €",
+                "destination": "Spain"
+            },
+            {
+                "id" : "Can Bach",
+                "name": "Can Bach",
+                "src": "/images/Spain/Can Bach.jpg",
+                "price": "209 €",
+                "destination": "Spain"
+            },
+            {
+                "id" : "SEA VIEWS APARTMENT",
+                "name": "SEA VIEWS APARTMENT",
+                "src": "/images/Spain/SEA VIEWS APARTMENT.jpg",
+                "price": "211 €",
+                "destination": "Spain"
+            },
+            {
+                "id" : "Lovely house",
+                "name": "Lovely house",
+                "src": "/images/Spain/Lovely house.jpg",
+                "price": "191 €",
+                "destination": "Spain"
+            },
+            {
+                "id" : "groene oase",
+                "name": "groene oase",
+                "src": "/images/Spain/groene oase.jpg",
+                "price": "225 €",
+                "destination": "Spain"
+            },
+            {
+                "id" : "Cas Suis 9",
+                "name": "Cas Suis 9",
+                "src": "/images/Spain/Cas Suis 9.jpg",
+                "price": "222 €",
+                "destination": "Spain"
+            },
+            {
+                "id" : "Casa Rural",
+                "name": "Casa Rural",
+                "src": "/images/Spain/Casa Rural.jpg",
+                "price": "190 €",
+                "destination": "Spain"
+            },
+            {
+                "id" : "Molino del Puente Medieval",
+                "name": "Molino del Puente Medieval",
+                "src": "/images/Spain/Molino del Puente Medieval.jpg",
+                "price": "140 €",
+                "destination": "Spain"
+            }
+
+]
+
+
+export {picturesItalia, picturesEngland, picturesSpain};
