@@ -1,5 +1,6 @@
 import React from 'react';
-import picturesItalia from '../pictures';
+import {picturesItalia,picturesEngland} from '../pictures';
+
 import {
     Link
 } from "react-router-dom";
@@ -15,8 +16,8 @@ const Home = () => {
         <div>
             <h2>Italien</h2>
             <PictureSlider list={picturesItalia} />
-            <h2>Auch Italien</h2>
-            <PictureSlider list={picturesItalia} />
+            <h2>England</h2>
+            <PictureSlider list={picturesEngland} />
             <li><Link to="/aboutus">About us</Link></li>
         </div>
     );
