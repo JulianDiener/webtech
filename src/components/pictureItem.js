@@ -14,7 +14,7 @@ function PictureItem(props) {
         <button
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
-            style={{backgroundColor: isMouseOver? "grey" : "white"}}>
+            style={{backgroundColor: isMouseOver? "lightgray" : "white"}}>
         <img src={props.src} style={{objectFit: 'cover', width: '230px', height: '230px' }} alt="Test"/>
         <p style={{fontWeight: 'bold'}}>{props.name}</p>
         <p>{props.price}</p>
