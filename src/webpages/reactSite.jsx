@@ -1,10 +1,8 @@
 import React from 'react';
 import {picturesItalia,picturesEngland,picturesSpain} from '../pictures';
-import {
-    Link
-} from "react-router-dom";
 
 import PictureSlider from "../components/pictureSlide";
+import Footer from "../components/footer"
 
 
 
@@ -17,7 +15,7 @@ const ReactSite = () => {
             <PictureSlider list={picturesEngland} />
             <h2>Spain</h2>
             <PictureSlider list={picturesSpain} />
-            <li><Link to="/htmlSite">HTML-Site</Link></li>
+            <Footer name={"HTML-Site"} link={"/htmlSite"} />
         </div>
     );
 };

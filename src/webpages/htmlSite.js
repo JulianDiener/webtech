@@ -194,7 +194,14 @@ const HtmlSite = () => {
                         <p>{picturesSpain[9].price}</p>
                     </button></div>
             </div>
-            <li><Link to="/">React-Site</Link></li>
+            <div style={{marginTop:"20px"}}>
+                <footer>
+                    <div className='footerDiv'>
+                        <Link  className="linkClass" to="/">React-Site</Link>
+                        <p>Copyright &copy; 2023</p>
+                    </div>
+                </footer>
+            </div>
         </div>
     );
 };
