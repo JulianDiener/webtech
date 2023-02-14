@@ -8,7 +8,7 @@ import PictureSlider from "../components/pictureSlide";
 
 
 
-const Home = () => {
+const ReactSite = () => {
     return (
         <div>
             <h2>Italien</h2>
@@ -17,8 +17,8 @@ const Home = () => {
             <PictureSlider list={picturesEngland} />
             <h2>Spain</h2>
             <PictureSlider list={picturesSpain} />
-            <li><Link to="/aboutus">About us</Link></li>
+            <li><Link to="/htmlSite">HTML-Site</Link></li>
         </div>
     );
 };
-export default Home;
+export default ReactSite;

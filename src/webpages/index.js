@@ -4,14 +4,14 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
-import Home from './home';
-import Aboutus from './aboutus';
+import ReactSite from './reactSite';
+import HtmlSite from './htmlSite';
 const Webpages = () => {
     return(
         <Router>
             <Routes>
-            <Route exact path="/" element = {<Home />} />
-            <Route path = "/aboutus" element = {<Aboutus />} />
+            <Route exact path="/" element = {<ReactSite />} />
+            <Route path = "/htmlSite" element = {<HtmlSite />} />
             </Routes>
         </Router>
     );

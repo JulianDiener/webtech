@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import {picturesEngland, picturesItalia, picturesSpain} from "../pictures";
 
-const Aboutus = () => {
+const HtmlSite = () => {
     return (
         <div>
             <h2>Italien</h2>
@@ -194,8 +194,8 @@ const Aboutus = () => {
                         <p>{picturesSpain[9].price}</p>
                     </button></div>
             </div>
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/">React-Site</Link></li>
         </div>
     );
 };
-export default Aboutus;
+export default HtmlSite;
