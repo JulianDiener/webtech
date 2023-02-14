@@ -195,7 +195,6 @@ const Aboutus = () => {
                     </button></div>
             </div>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/jquery">JQuery</Link></li>
         </div>
     );
 };

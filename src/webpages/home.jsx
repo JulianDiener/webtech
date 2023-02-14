@@ -1,13 +1,10 @@
 import React from 'react';
 import {picturesItalia,picturesEngland,picturesSpain} from '../pictures';
-
 import {
     Link
 } from "react-router-dom";
 
 import PictureSlider from "../components/pictureSlide";
-
-
 
 
 
@@ -21,7 +18,6 @@ const Home = () => {
             <h2>Spain</h2>
             <PictureSlider list={picturesSpain} />
             <li><Link to="/aboutus">About us</Link></li>
-            <li><Link to="/jquery">JQuery</Link></li>
         </div>
     );
 };
