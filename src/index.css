@@ -73,3 +73,22 @@ button{
 .ButtonClass:hover {
   background-color: lightgray;
 }
+
+footer{
+  background-color: lightgray;
+  color: black;
+  padding: 20px;
+}
+
+.footerDiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkClass{
+  margin-left: 10px;
+  text-align: left;
+  font-size: 15px;
+  color: black;
+  margin-top: 15px;
+}
