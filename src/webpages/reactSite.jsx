@@ -4,6 +4,11 @@ import {picturesItalia,picturesEngland,picturesSpain} from '../pictures';
 import PictureSlider from "../components/pictureSlide";
 import Footer from "../components/footer"
 
+/*
+* Function to create the ReactSite Component
+*
+* It is build of h2 headers, PictureSliders and a Footer Component
+*/
 
 
 const ReactSite = () => {

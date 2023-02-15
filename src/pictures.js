@@ -1,3 +1,6 @@
+/*
+* Lists where information for every PictureItem is stored
+* */
 const picturesItalia =
           [
             {

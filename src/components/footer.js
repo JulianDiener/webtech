@@ -3,6 +3,10 @@ import {
     Link
 } from "react-router-dom";
 
+/*
+* Function to create the Footer Component
+*/
+
 function Footer(props){
     return <div style={{marginTop: "20px"}}>
         <footer>

@@ -1,5 +1,12 @@
 import React, {useState} from 'react';
 
+/*
+* Function to create the PictureItem Component
+*
+* The PictureItem is build of a button in which an image and to p's are placed
+*
+* Used React Hook useState to control state of isMouseOver while operational time
+*/
 
 
 function PictureItem(props) {

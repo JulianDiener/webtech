@@ -2,6 +2,12 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import {picturesEngland, picturesItalia, picturesSpain} from "../pictures";
 
+/*
+* Function to create the HTML-Site Component
+*
+* It should show the difference between using HTML and React
+*/
+
 const HtmlSite = () => {
     return (
         <div>
